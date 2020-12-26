@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main styling */
+
+html,body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.6rem;
+}
+a {
+  color: #945622;
+  text-decoration: none;
+}
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px;
+}
+
+/* Util classes */
+
+.logo {
+  padding-right: 20px;
+  padding-top: 22.5px;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-callout {
+  color: #CA7731;
+}
+.lead-text {
+  font-size: 19px;
+  color: #E73819;
+}
+.btn {
+  display: inline-block;
+  font-size: 17px;
+  color: #ffffff;
+  background: #444444;
+  padding: 12px 20px;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #CA7731;
+  color: #555;
+}
+.btn-light {
+  background: #777;
+  color: #fff;
+}
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+.bg-primary {
+  background: #CA7731;
+  color: #333;
+}
+.clr {
+  clear: both;
+}
+.l-heading {
+  font-size: 30px;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0;}
+.py-2 { padding: 20px;}
+.py-3 { padding: 30px 0;}
+
+/* Navbar */
+
+#navbar {
+  background: #222;
+  color: #fff;
+  overflow: auto;
+}
+#navbar h1 {
+  float: right;
+}
+#navbar a {
+  color: #945622;
+}
+#navbar ul {
+  float: left;
+  list-style: none;
+}
+#navbar ul li {
+  float: right;
+}
+#navbar ul li a {
+  display: block;
+  padding: 25px;
+  text-align: center;
+}
+#navbar ul li a:hover {
+  background: #333;
+  color: #CA7731;
+}
+
+/* Showcase */
+
+.showcase {
+  background: url('./img/pexels-andrea-piacquadio-761999.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+.showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.showcase .showcase-content h1 {
+  font-size: 50px;
+  line-height: 1rem;
+  color: #222;
+}
+.showcase .showcase-content p {
+  padding-bottom: 15px;
+  line-height: 1.6em;
+  font-size: 19px;
+}
+
+/* Home info */
+
+#home-info {
+  height: 525px;
+}
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url('./img/pexels-kaboompics-com-5879.jpg') no-repeat center center/cover;
+  min-height: 100%;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+#home-info .info-content p {
+  padding-bottom: 20px;
+}
+
+/* Features */
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {
+  margin-bottom: 5px;
+}
+
+/* Comment */
+
+.comments {
+  text-align: center;
+  background: #333;
+  color: #333;
+}
+#post-button {
+  padding: 5px 30px;
+  margin-bottom: 10px;
+  background: #444;
+}
+#post-button:hover {
+  background: #CA7731;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 5px;
+}
